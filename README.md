@@ -17,12 +17,12 @@ $ systemctl start postgresql-9.5
 
 ## Add permission (FOR STAGING ONLY)
 
-*Set in file /var/lib/pgsql/10/data/postgresql.conf*
+*Set in file /var/lib/pgsql/9.5/data/postgresql.conf*
 ```code
 listen_addresses = '*'
 ```
 
-*Set in /var/lib/pgsql/10/data/pg_hba.conf*
+*Set in /var/lib/pgsql/9.5/data/pg_hba.conf*
 ```code
 host  all all 0.0.0.0/0 trust
 ```
